@@ -1,0 +1,103 @@
+<%= provide(:title, 'NFC Security Progress Report 1')%>
+
+<div id="topic">
+  <h1>Potential Security flaws with NFC</h1>
+
+  Zachary Walters, Nicholas Land</br>
+  Oakland University, Department of Computer Science and Engineering</br>
+
+  <a href="mailto:zswalter@oakland.edu">zswalter@oakland.edu</a>,
+  <a href="mailto:ndland@oakland.edu">ndland@oakland.edu</a>
+</div>
+
+<h2 id="heading">Background and Motivation</h2>
+<div id="container">
+	<p id="para">
+		The goal of this research project is to investigate the security
+		vulnerabilities and privacy issues dealing with NFC technologies.
+		</br>
+		</br>
+		NFC (Near Field Communications) is a growing technology for mobile
+		devices. One thing NFC is used for is credit card transactions at a
+		cash register. Another use for NFC is to share photos between devices.
+		With such personal data being transmitted by NFC devices there is a
+		concern of one’s security and privacy.
+	</p>
+</div>
+
+<h2 id="heading">Completed Tasks</h2>
+<div id="container">
+  <p id="para">
+	  This project will focus primarily on the security of nfc using one's
+	  phone. Most newer phones these days come equipped with an nfc chip
+	  already on board. Many people are note even aware of thes chips existing
+	  on their phone. As of the this writing we are currently doing some testing
+	  with when there is only one device actively using the nfc technology.
+	  There are three different types of configurations for phones communicating
+	  when using nfc.
+
+	  <table id="table" border="1">
+		  <tr>
+			  <th>Phone A</th>
+			  <th>Phone B</th>
+		  </tr>
+		  <tr>
+			  <td>Active</td>
+			  <td>Active</td>
+		  </tr>
+		  <tr>
+			  <td>Active</td>
+			  <td>Passive</td>
+		  </tr>
+		  <tr>
+			  <td>Passive</td>
+			  <td>Active</td>
+		  </tr>
+	  </table>
+	  </br>
+
+	  These are the three main configurations that we are testing as of this writing.
+	  Our primary goal is to test whether or not when an nfc chip is passive, if
+	  information is still able to be obtained by a third party using nfc.
+  </p>
+</div>
+
+<h2 id="heading">Plan and Project Assessment</h2>
+<div id="container">
+  <p id="para">
+	  There are still a number of things that have yet to be completed with
+	  this project. A few of the things yet to be completed are:
+	  <ul>
+		  <li>Man in the middle attack</li>
+		  <p>
+			  We would like to attempt to create a man in the middle attack
+			  and see what our research would provide for us in such
+			  testing.
+		  </p>
+		  <li>Eavesdropping</li>
+		  <p>
+			  NFC is <strong><i>near</i></strong> field communications, however, it
+			  may be possible to eavesdrop using an antenna due to the fact that
+			  NFC communicates using RF waves.
+		  </p>
+		  <li>Data Corrpution</li>
+		  <p>
+			  Another thing we would like to investigate whether or not there is a
+			  risk of any data corruption using NFC. This could come in a variety of
+			  ways, e.g. While trying to send information, or if an attacker is able
+			  to corrupt data while in the range of NFC.
+		  </p>
+	  </ul>
+  </p>
+</div>
+
+<h2 id="heading">References</h2>
+<div id="container">
+	<p id="para">
+		<a href="http://ece.wpi.edu/~dchasaki/papers/Security%20in%20NFC.pdf"> Security in Near Field Communication (NFC)</a> Ernst Haselsteiner and Klemens Breitfuß</br>
+		<a href="http://www.makeuseof.com/tag/using-nfc-3-security-risks-to-be-aware-of/"> Using NFC? 3 Security Risks To Be Aware Of</a> Makeuseof </br>
+		<a href="http://www.brighthand.com/default.asp?newsID=17577&p=3">Is NFC Secure Enough?</a> Brighthand </br>
+		<a href="http://www.smart-university.eu/program-nfc-security-and-capabilities.htm"> Is Near Field Communication (NFC) really secure and ready for real-world application?</a> Smart University </br>
+		<a href="http://www.nearfieldcommunication.org/nfc-security.html">Security Concerns with NFC Technology</a> nearfieldcommunication.org
+	</div>
+</p>
