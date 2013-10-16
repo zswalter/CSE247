@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class ProjectFilesControllerTest < ActionController::TestCase
-  test "should get proposal" do
-    get :proposal
+  test "should get progress_report" do
+    get :progress_report
     assert_response :success
   end
 

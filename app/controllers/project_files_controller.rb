@@ -1,4 +1,4 @@
 class ProjectFilesController < ApplicationController
-  def proposal
+  def progress_report
   end
 end
