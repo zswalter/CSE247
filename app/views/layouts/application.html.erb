@@ -7,12 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+<div id = "background_bar">
 <ul id = "menu">
-	<li><%= link_to "Proposal", home_path %></li>
-	<li><%= link_to "Progress Report 1", progress_report_1_path %></li>
+	<li><%= link_to "Proposal", home_path, :class => "links" %></li>
+	<li><%= link_to "Progress Report 1", progress_report_1_path, :class => "links" %></li>
 </ul>
-
+</div>
 <%= yield %>
 
 </body>

@@ -11,12 +11,30 @@
  *= require_self
  *= require_tree .
  */
+ body{
+ 	background-color: gray;
+ }
+ #background_bar{
+ 	background: url(../samsung-galaxy-S4.png);
+ 	width: 260px;
+ 	height: 447px;
+ 	position: fixed; 	
+ }
+ .links{
+ 	text-decoration: none;
+ 	color: white;
+ }
  ul#menu {
-	text-decoration: off;
+	text-decoration: none;
 	margin-left: 25px;
-	margin-top: 25px;
+	margin-top: 100px;
 	position: absolute;
-	left: 25px;
-	right: 25px;
 	list-style-type: none;
+	color: white;
+}
+li{
+	padding: 7px;
+	border: solid white 2px;
+	margin-bottom: 20px;
+	background-color: black;
 }
