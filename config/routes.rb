@@ -1,5 +1,7 @@
 Cse247::Application.routes.draw do
-  get "project_files/progress_report_2"
+  get 'project_files/final_report'
+
+  get 'project_files/progress_report_2'
 
   get 'project_files/progress_report'
 
@@ -11,4 +13,5 @@ Cse247::Application.routes.draw do
   match 'home', to: 'project_files#proposal'
   match 'progress_report_1', to: 'project_files#progress_report'
   match 'progress_report_2', to: 'project_files#progress_report_2'
+  match 'final_report', to: 'project_files#final_report'
 end
